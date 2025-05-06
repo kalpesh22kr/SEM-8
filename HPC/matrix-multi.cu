@@ -1,3 +1,7 @@
+!pip install git+https://github.com/afnan47/cuda.git
+%load_ext nvcc_plugin
+
+
 %%writefile matrix_multi.cu
 
 #include <iostream>
